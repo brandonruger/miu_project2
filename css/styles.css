@@ -1,5 +1,5 @@
 /* Brandon Ruger
- * Project 1
+ * Project 2
  * MiU 1310 */
 
 body{
@@ -10,12 +10,12 @@ body{
 h1 {
     font-family: "Times New Roman";
     color: red;
-    font: 28px "Times New Roman";
+    font: 18px "Times New Roman";
     text-align: center;
     text-transform: uppercase;
     margin: 5px;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 5px;
+    padding: 3px;
     border: 2px solid white;
     background-color:  blue;
     text-decoration: blink;
@@ -94,7 +94,7 @@ option {
 
 #Ryder {
     width: 300px;
-    height: 150px;
+    height: 100px;
 }
 
 label {

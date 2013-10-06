@@ -1,5 +1,5 @@
 /* Brandon Ruger
- * Project 1
+ * Project 2
  * MiU 1310 */
 
 window.addEventListener("DOMContentLoaded", function(){
