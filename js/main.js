@@ -210,7 +210,7 @@ window.addEventListener("DOMContentLoaded", function(){
         getElements('range').value = itemList.range[1];
         getElements('note').value = itemList.note[1];
         
-        //Remove the initial listener from the imput 'create reminder' button.
+        //Remove the initial listener from the input 'create reminder' button.
         createButton.removeEventListener("click", validateInput);
         //Change Submit button value to Edit button
         getElements('button').value = "Update Reminder";
