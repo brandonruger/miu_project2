@@ -110,10 +110,8 @@ window.addEventListener("DOMContentLoaded", function(){
         var createList = document.createElement('ul');
         createDiv.appendChild(createList);
         document.body.appendChild(createDiv);
-        getElements('items').style.display = "block";
         for (var i=0; i<localStorage.length; i++) {
             var createListItem = document.createElement('li');
-            var newLinksLi = document.createElement('li');
             createList.appendChild(createListItem);
             var key = localStorage.key(i);
             var dataValue = localStorage.getItem(key);
@@ -127,10 +125,10 @@ window.addEventListener("DOMContentLoaded", function(){
                 subList.appendChild(makeSublist);
                 var subText = findObject[n][0]+ " " +findObject[n][1];
                 makeSublist.innerHTML = subText;
-                createListItem.appendChild(newLinksLi);
+                //createListItem.appendChild(newLinksLi);
             }
-            createEditDelLinks(localStorage.key(i), newLinksLi); //Create our edit and delete links for each item in local storage.
-            
+            createEditDelLinks(localStorage.key(i), createListItem); //Create our edit and delete links for each item in local storage.
+
         }
         
     }
