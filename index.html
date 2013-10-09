@@ -29,6 +29,7 @@
 </head>
 <body>
     
+    <!-- HOME PAGE -->
     <div data-role="page" id="home">
         
         <div data-role="header" data-position="fixed">
@@ -56,11 +57,13 @@
         
     </div>
     
-    <div data-role="page" id="addItem">
+    <!-- ADD ITEM PAGE -->
+    <div data-role="page" id="addItem" data-add-back-btn="true">
         <div data-role="header" data-position="fixed">
             <h1>Add A Reminder</h1>
         </div>
         
+        <div data-role="content">
                     <form action="#" method="post" id="addReminderForm">
                 <fieldset>
                     <legend>Pet Information</legend>
@@ -104,46 +107,60 @@
                     <a href="additem.html" id="addNewReminder" style="display: none;">Add New Reminder</a>
                 </ul>
             </nav>
-            
-        <div data-role="page" id="about">
+        </div>
+        <div data-role="footer" data-position="fixed" data-id="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+                    <li><a href="#about" data-icon="info">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+        <!--ABOUT PAGE-->  
+        <div data-role="page" id="about" data-add-back-btn="true">
             <div data-role="header" data-position="fixed">
-            <h1>About</h1>
+                <h1>About</h1>
+            </div>
+            <div data-role="content">
             <p>My name is Brandon Ruger, and I am attending Full Sail University's Mobile Development program.</p>
             <p>I created this app for busy people like me who love their pets, this way we do not forget to give them their medication when it's due!</p>
             <p><a href="#GitLinkGoesHere" data-role="button" data-icon="arrow-r" data-iconpos="right">Git</a></p>
             <p><a href="#GoldApp" data-role="button" data-icon="arrow-r" data-iconpos="right">Gold App</a></p>
             <p><a href="#BronzeApp" data-role="button" data-icon="arrow-r" data-iconpos="right">Bronze App</a></p>
             <p><a href="#home" data-role="button" data-icon="arrow-r" data-iconpos="right">Home</a></p>
+            </div>
+            <div data-role="footer" data-position="fixed" data-id="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+                        <li><a href="#about" data-icon="info">About</a></li>
+                    </ul>
+                </div>
 
+            </div>
+        </div>
+        
+        <!--TO ADD A NEW PAGE-->
+        <div data-role="page" id="" data-add-back-btn="true">
+            <div data-role="header" data-position="fixed">
+            <h1>TITLE</h1>
+            </div>
+            
+            <div data-role="content">
+                <!--CONTENT GOES HERE-->
+                
+            </div>
+            
+            <div data-role="footer" data-position="fixed" data-id="footer">
+                
+            </div>
         </div>
 
 
     </div>
         
-        
-        
-        
-    
-        
-        
-        
-        
-        
-        
-               <!-- <a href="additem.html"><img id="Ryder" src="img/Ryder.png" /></a>
-            </div>
-            <div id="search">
-                <h2>Search Reminders</h2>
-                <input type="text" id="searchField" value="Enter search here" /><button id="search">Search</button>
-            </div>
-            <div id="browse">
-                <h2>Browse by</h2>
-                    <a href="petsname.html"><img src="img/PetsName.png" class="buttons" /></a>
-                    <a href="typeofpet.html"><img src="img/TypeOfPet.png" class="buttons" /></a>
-                    <a href="medication.html"><img src="img/Medication.png" class="buttons" /></a>
-                    <a href="importance.html"><img src="img/Importance.png" class="buttons" /></a>
-                    <a href="date.html"><img src="img/Date.png" class="buttons" /></a> -->
-            </div>
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
