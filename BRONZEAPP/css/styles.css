@@ -2,103 +2,30 @@
  * Project 2
  * MiU 1310 */
 
-/*
-body{
-    background-color: #202074;
-    
-}
-
-h1 {
-    font-family: "Times New Roman";
-    color: red;
-    font: 18px "Times New Roman";
-    text-align: center;
-    text-transform: uppercase;
-    margin: 5px;
-    margin-bottom: 5px;
-    padding: 3px;
-    border: 2px solid white;
-    background-color:  blue;
-    text-decoration: blink;
-    
-}
-
-h2{
-    font-family: "Times New Roman";
-    color: white;
-    font: 10px "Times New Roman";
-    margin-bottom: 10px;
-    padding: 5px;
-    border: 1px solid white;
-    background-color: blue;
-    
-}
-
-legend {
-    font: 20px "Times New Roman";
-    color: white;
-    text-align: center;
-    border: 2px solid white;
-    margin-top: 10px;
-    padding: 5px;
-    background-color: #008aff;
-    letter-spacing: 0.5em;
-    
-}
-
-li {
-    font: 14px "Tahoma";
-    color: white;
-}
-
-input {
-    margin-left: 10px;
-    padding: 5px;
-    
-}
-
-a{
-    font: 12px "Arial";
-    color: #008aff;
-    text-align: center;
-       
-}
 
 a:hover{color: white; outline: groove;}
 
-select {
-    margin-left: 10px;
-    background-color: white;
-    font: 14px "Arial";
-    color: blue;
-    
+#Ryder {
+    max-width: 95%;
+    max-height: 33%;    
 }
 
-option {
-    font: 14px "Arial";
-    color: blue;
+#cat {
+    max-width: 80%;
+    max-height: 80%;
 }
 
-#button {
-    height: 20px;
-    width: 200px;
-    background-color: red;
-    font: 5px "Arial";
-    color: white;
-    margin-bottom: 20px;
-    border: 2px solid white;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    
+#dog {
+    max-width: 80%;
+    max-height: 80%;
 }
 
-/*#Ryder {
-    width: 300px;
-    height: 100px;
-}*/
-
-/*label {
-    color: white;
+#bird {
+    max-width: 80%;
+    max-height: 80%;
 }
-*/
+
+#horse {
+    max-width: 80%;
+    max-height: 80%;
+}

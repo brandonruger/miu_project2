@@ -124,46 +124,36 @@
 	</div>
     
 	<!--TYPE OF PET PAGE-->
-	<div data-role="page" id="typeOfPet" data-add-back-btn="true" data-theme="a">
+	<div data-role="page" id="typeOfPet" data-add-back-btn="true">
 	    <div data-role="header" data-position="fixed">
-	    <h1>Type of Pet</h1>
+		<h1>Type of Pet</h1>
 	    </div>
 		
 	    <div data-role="content">
-		<ul data-role="listview" data-inset="true">
-		    <div class="ui-grid-a">
-			<div class="ui-block-a">
-			    <li>
-				<a href="#cat">
-				<img src="img/cat.png">
-				</a>
-			    </li>
-			</div>
-			<div class="ui-block-b">
-			    <li>
-				<a href="#dog">
-				<img src="img/dog.png">
-				</a>
-			    </li>
-			</div>
+		<div class="ui-grid-a">
+		    <div class="ui-block-a">
+			<a href="#cat">
+		        <img src="img/cat.png" id="cat"><p>Cat Reminders</p>
+			</a>
 		    </div>
-		    <div class="ui-grid-a">
-			<div class="ui-block-a">
-			    <li>
-				<a href="#bird">
-				<img src="img/bird.png">
-				</a>
-			    </li>
-			</div>
-			<div class="ui-block-b">
-			    <li>
-				<a href="#horse">
-				<img src="img/horse.png">
-				</a>
-			    </li>
-			</div>
+		    <div class="ui-block-b">
+			<a href="#dog">
+			<img src="img/dog.png" id="dog"><p>Dog Reminders</p>
+			</a>
 		    </div>
-		    
+		</div>
+		<div class="ui-grid-a">
+		    <div class="ui-block-a">
+			<a href="#bird">
+			<img src="img/bird.png" id="bird"><p>Bird Reminders</p>
+			</a>
+		    </div>
+		    <div class="ui-block-b">
+			<a href="#horse">
+			<img src="img/horse.png" id="horse"><p>Horse Reminders</p>
+			</a>
+		    </div>
+		</div>
 	    </div>
 		
 	    <div data-role="footer" data-position="fixed" data-id="footer">
@@ -174,7 +164,6 @@
 			<li><a href="#additem" data-icon="plus">Add Item</a></li>
 		    </ul>
 		</div>
-		    
 	    </div>
 	</div>
 	
